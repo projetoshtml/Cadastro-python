@@ -19,11 +19,11 @@ while True:
   op = input("Escolha Uma Opção: ")
   
   if op == "1":
-    f.cadastrar()
+    cadastrar()
     
   
   elif op == "2":
-    f.listar()
+    listar()
     
   elif op == "0":
     break
