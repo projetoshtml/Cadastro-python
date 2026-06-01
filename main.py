@@ -1,4 +1,4 @@
-import funcoes
+import funcoes as fc
 
 while True:
   print("Menu")
@@ -8,10 +8,11 @@ while True:
   op = input("Escolha Uma Opção: ")
   
   if op == "1":
-    cadastrar()
+    fc.cadastrar()
+    
   
   elif op == "2":
-    listar()
+    fc.listar()
     
   elif op == "0":
     break
